@@ -1,0 +1,66 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+   width:100%;
+   text-align: center;
+   margin:20px;
+   background-color: rgb(191, 231, 183);
+}
+.filter,.filterPitcher,.filterPitch,.filterView{
+  margin:10px;
+  padding:5px;
+}
+.pitch-view, .chart {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  border: 1px solid #000;
+  margin: auto;
+}
+.chart-data{
+  position: absolute;
+  top: 30px;
+  left: 110px;
+  width: 300px;
+  height: 300px;
+  z-index:5;
+}
+.strike-zone {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #fff;
+  border-radius: 0 70% 0 0;
+  transform: rotate(-45deg);
+  border: 2px solid #000;
+  background-color: green;
+  z-index:0;
+}
+.pitch-pos{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  transform: rotate(-45deg);
+}
+.pitcher-mound {
+  top: 100px;
+  left: 235px;
+}
+.home-plate {
+  top: 220px;
+  left: 350px;
+}
+.pitcher {
+  top: 220px;
+  left: 120px;
+}
+.batter {
+  top: 330px;
+  left: 235px;
+}
